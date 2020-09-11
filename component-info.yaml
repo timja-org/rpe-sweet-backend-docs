@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rpe-sweet-backend-docs
+  description: Some docs
+  annotations:
+    github.com/project-slug: timja-org/rpe-sweet-backend-docs
+    backstage.io/techdocs-ref: github:https://github.com/timja-org/rpe-sweet-backend-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: guest
